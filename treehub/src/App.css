@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.HomeBack{
+  width: ;
+  background-image: url(./images/HomeBack.jpg);
+  background-size: 100% 100%;
+}
 .EditHeader{
   background-image: url(./images/EditBack.jpg);
 }
@@ -8,6 +13,7 @@ h1 {
   background-color: azure;
   width: 40%;
   left: 30%;
+  height: 10%;
   position: relative;
   padding: 0.25em 1em;
   margin: 0;
@@ -159,15 +165,13 @@ h1:before {
 .Edit_tree_item{
   position: relative;
 }
-.decoration{
-  position: absolute;
-}
+
 .Menu{
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  top: 20%;
+  top: 40%;
   left: 8%;
 }
 .Edit_menu_open{
@@ -209,6 +213,25 @@ h1:before {
   left: 45%;
   width: 8%;
   height: 17%;
+}
+.pose{
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 0%;
+  top: 0;
+}
+.poseButton{
+}
+.Save{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+  height: 10%;
+}
+.SaveButton{
+  width: 100%;
 }
 /*.App-logo {
   height: 40vmin;
