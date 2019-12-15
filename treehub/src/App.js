@@ -1,4 +1,4 @@
- 
+import {firebaseDb} from './firebase'
 import React, { Component } from 'react';
 import './App.css';
 import { RSA_PKCS1_OAEP_PADDING } from 'constants';
@@ -21,6 +21,7 @@ import snowman from './images/snowman.png';
 import socks from './images/socks.png';
 import present from './images/present.png';
 import belllease from './images/belllease.png';
+
 import light1 from './images/light1.png';
 import light2 from './images/light2.png';
 import light3 from './images/light3.png';
@@ -65,6 +66,7 @@ function Edit(){
     console.log(image_state);
   }
   
+
   function image1_send(){//渡すときの関数。
     setimage1(image_state);
   }
@@ -76,6 +78,7 @@ function Edit(){
   }
   function image4_send(){
     setimage4(image_state);
+
   }
   function image5_send(){
     setimage5(image_state);
@@ -127,6 +130,7 @@ function Edit(){
     setCheck(!menucheck);
   }
 
+ 
   return(
     <>
     <div className="EditHeader">
@@ -206,27 +210,3 @@ function App(){
 }
 export default App;
 
-/*
-function Home(){
-  return(
-    <>
-    <div className="HomeBack">
-      <h>TreeHub</h>
-      <p>Heme</p>
-      
-    </div>
-    </>
-  );
-}
-*/
-/*
-     <Home />
-      <BrowserRouter>
-        <Route exact path ='/'>
-        <Link to='/Edit'>編集画面へ</Link>
-        </Route>
-        <Route exact path='/Edit'>
-          <Edit />
-        </Route>
-      </BrowserRouter>
-      */
