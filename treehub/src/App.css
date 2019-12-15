@@ -171,7 +171,7 @@ h1:before {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  top: 40%;
+  top: 20%;
   left: 8%;
 }
 .Edit_menu_open{
@@ -214,14 +214,13 @@ h1:before {
   width: 8%;
   height: 17%;
 }
-.pose{
+.poseButton{
+  background-color: coral;
   position: absolute;
   width: 15%;
   height: 10%;
-  left: 0%;
+  left: 0;
   top: 0;
-}
-.poseButton{
 }
 .Save{
   position: absolute;
